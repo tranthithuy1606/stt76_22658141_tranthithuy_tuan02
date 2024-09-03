@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai1.css">
+    <style>
+        *{
+            margin: 0px auto;
+            padding: 0px;
+
+        }
+        .container {
+            width: auto;
+            border: 1px solid white;
+        }
+        header{
+            width: auto;
+            height: 50px;
+            background-color: white;
+        }
+        footer{
+            width: auto;
+            height: 30px;
+            background-color: rgb(227, 129, 147);
+        }
+        nav{
+            width: auto;
+            height: 40px;
+            background-color: rgb(227, 129, 147);
+            
+        }
+        #menu{
+            width: 100%;
+            height: auto;
+            background-color: rgb(242, 221, 225);
+        }
+        #section{
+            width: 55%;
+            height: 550px;
+            background-color: white;
+            float: center;
+
+        }
+        #aside{
+            width: 20%;
+            height: 550px;
+            background-color:   white;
+            float: left;
+           
+        }
+        #sidebar{
+            width: 20%;
+            height: 500px;
+            background-color: black;
+            float: right;
+            margin-top: 2px;
+        }
+        #artical{
+            width: 50%;
+            height: 140px;
+            background-color: white;
+            float: left;
+        }
+        #post{
+            width: 50%;
+            height: 140px;
+            background-color: white;
+            float: right;
+        }
+        #contact{
+            width: 200px;
+            height: 140px;
+            background-color: white;
+        }
+        #art1{
+            width: 80%;
+            height: 140px;
+            float: center;
+            margin-bottom: 60px;
+            margin-top: 10px;
+
+        }
+        #art2{
+            width: 80%;
+            height: 140px;
+            float: center;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header> <i> EXAMPLE CAFE MENU</i></header>
+    <nav>
+        <div id="menu">
+            <ul>
+                <li><a href="home.asp"> <img src="icons8-home-50.png" alt=""> </a></li>
+                <li><a href="starters.asp"> starters </a></li>
+                <li><a href="maincourses.asp"> Main Courses </a></li>
+                <li><a href="Desserts.asp"> Desserts </a></li>
+                <li><input type="search"> </li>
+                <li><button type="submit"> Go </button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <div id="sidebar">
+           <h2>Events</h2>
+            <div id="art1">
+                <h3>Regular Meetings</h3>
+                <img src="meeting.png" alt="">
+                Host your regular team meetings or activities in the comfort of your own private room.
+                <i class="dots">...</i>
+                <span class="more-content">
+                    Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work!
+                </span>
+                <button class="read-more">Read More</button>
+               
+            </div>
+            <div id="art2">
+                <h3>Product Launches</h3>    
+                <img src="launch.png" alt="">               
+                Launch your product with ease in a space that truly fits its image. 
+                <i class="dots">...</i>
+                <span class="more-content">
+                Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs.
+            </span>
+            <button class="read-more">Read More</button>
+            </div>
+        </div>
+        <div id="aside">
+            <ul>
+                <li>Cafe Latte</li>
+                <li> Capuchino</li>
+                <li> Ocean Blue </li>
+                <li> Ice-cream Cafe</li>
+                <li> Order online</li>
+                <img src="company.png" alt=""> 
+            </ul>
+        </div>
+        <div id="section">
+        <h2>  Strarters </h2>
+<p>
+    <li>Chestnut and Mushroom Goujons(<a href="v.asp">v</a>)</li>
+    <li>Goat Chesse Salad (<a href="v.asp">v</a>)</li>
+    <li>Honey Soy Chicken Kebabs</li>
+    <li>Seafood Salad</li>
+</p>
+<a href="Backtotop.asp">Back to top</a>
+
+<h2>Desserts</h2>
+<p>
+    <li>Lemon Sorbet (<a href="v.asp">v</a>)</li>
+    <li>Chocolate Mud Pie (<a href="v.asp">v</a>)</li>
+    <li>Pecan Pie (<a href="v.asp">v</a>)</li>
+    <li>Selection of Fine Cheeses from Around the World</li>
+</p>
+<a href="Backtotop.asp">Back to top</a>
+<P> Items marked with a (v) are suitable for vegetarians. </P>
+<section class="contact">
+    <h2>Information</h2>
+    <form>
+        <div id="artical">
+            <input type="text"  placeholder="First Name">
+            <input type="email" placeholder="Email">
+            <select>
+                <option value="usa">USA</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="foreigner">Foreigner</option>
+            </select>
+        </div>
+         <div id="post">
+            <input type="text" placeholder="Last Name">
+            <input type="tel" placeholder="Telephone">
+            <p><input type="radio" name="Vietnam"> Vietnam
+            <input type="radio" name="Foreigner"> Foreigner</p>
+         </div>
+         <p> 
+            <textarea rows=4 cols=88 name="" placeholder="Comment"></textarea><br>
+            <button type="submit">Submit</button> 
+            <button type="reset">Cancel</button>
+        </p>
+
+       
+    </form>
+</section>
+
+</div>
+            
+</div>
+        
+    <footer>
+        ABC Company &copy - 12345678 - abccoffee@gmail.com
+    </footer>
+</body>
+</html>

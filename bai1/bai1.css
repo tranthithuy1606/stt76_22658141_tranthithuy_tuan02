@@ -1,0 +1,122 @@
+header{font-family: 'Times New Roman', Times, serif; text-align: center; 
+    color: rgb(175, 45, 45); 
+    text-shadow: 1px 6px 1px rgba(247, 36, 36, 0.399); font-size: x-large; margin-top: 1%; font-weight: 900;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+nav li a img {
+    width: 25px;
+    height: 25px;
+    margin: 5%;
+}
+#menu ul{
+    background: rgb(227, 129, 147);
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+}
+#menu li{
+     color: white;
+     width: 180px;
+     height: 40px;
+     line-height: 40px;
+     float: left;
+}
+#menu li a:hover{
+    background: white;
+    color: pink;
+    width: 100%;
+    height: 100%;
+}
+#menu ul li a{
+    background: rgb(227, 129, 147);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    margin-left: 70%;
+   
+}
+#menu li input{
+    width: 160px;
+    margin-left: 190px;
+    height: 20px;
+}
+#menu li button{
+    margin-left: 200px;
+}
+#aside li{
+        color: white;
+        width: auto;
+        height: auto;
+        line-height: 30px;
+        background: rgb(227, 129, 147);
+        margin: 4px;
+        padding-left: 15px;
+        border-radius: 50px;
+}
+#aside li:hover{
+    background: rgb(249, 180, 180);
+    color: rgb(253, 0, 42);
+    width: 100%;
+    height: 100%;}
+#aside ul img{
+    border-radius: 50%;
+    box-shadow: 6px 6px 7px rgba(236, 83, 83, 0.726);
+    box-sizing: 10px 1px;
+}
+#section h2{ text-align: center; 
+    background: rgb(249, 180, 180) ;text-transform: uppercase; 
+    letter-spacing: 10px; 
+    color: rgb(175, 45, 45);
+    margin-top: 3px;
+    font-size: large;
+}
+#section a
+{
+color:red;
+font-weight: bolder;
+}
+footer{
+    color: white;
+    text-align: center;
+    
+    font-weight: bold;
+    font-style: italic;
+}
+input{
+    width: 90%; 
+    padding-top: 10px;
+    margin-top: 10px;
+   }
+select{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 90%;
+}
+input[type="radio"]{
+    width: 10px;
+    margin-left: 5px;
+}
+#art1{
+    background: black;
+    color: white;
+    font-size: small;
+}
+#art2{
+    background: black;
+    color: white;
+    font-size: small;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#sidebar h2{
+    color: white;
+}
+.more-content{
+   display: none;
+}
